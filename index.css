@@ -52,6 +52,43 @@ a {
   margin-top: 1em;
 }
 
+.login {
+  max-width: 480px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login h2 {
+  margin: 1em 0;
+}
+
+/* utility classes */
+
+.form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1.5em 0;
+}
+
+.form-group label {
+  margin-bottom: 0.5em;
+}
+
+.form-control {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+
+input {
+  padding: 0.3em;
+}
+
 .btn-group {
   display: flex;
   justify-content: center;
@@ -76,6 +113,14 @@ a {
 
 .btn-login {
   background-color: var(--blue);
+}
+
+.form-group .btn-login {
+  color: #ffffff;
+  width: 100%;
+  margin: 0;
+  padding: 0.3em;
+  cursor: pointer;
 }
 
 .btn-register {
