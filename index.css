@@ -1,5 +1,5 @@
 :root {
-  --black: #0f0f0f;
+  --black: #1b1a1a;
   --blue: rgb(48, 50, 179);
 }
 
@@ -10,11 +10,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100%;
   font-family: "Open Sans", sans-serif;
   color: var(--black);
 }
@@ -32,6 +27,7 @@ img {
 
 .hero {
   margin: 4em 0;
+  text-align: center;
 }
 
 .hero > img {
@@ -52,11 +48,15 @@ a {
   text-decoration: none;
 }
 
+.hero > p {
+  margin-top: 1em;
+}
+
 .btn-group {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  margin-top: 1.5em;
 }
 
 .btn {
