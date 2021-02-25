@@ -21,8 +21,8 @@
             </h1>
             <p>Register as a new patient or login</p>
             <div class="btn-group">
-                <a href="#" class="btn btn-login">Login</a>
-                <a href="#" class="btn btn-register">Register</a>
+                <a href="./login.html" class="btn btn-login">Login</a>
+                <a href="./register.html" class="btn btn-register">Register</a>
             </div>
         </div>
     </div>
