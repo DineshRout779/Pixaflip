@@ -1,3 +1,8 @@
+:root {
+  --black: #0f0f0f;
+  --blue: rgb(48, 50, 179);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +16,7 @@ body {
   flex-direction: column;
   height: 100%;
   font-family: "Open Sans", sans-serif;
+  color: var(--black);
 }
 
 .container {
@@ -59,7 +65,7 @@ a {
   text-align: center;
   border-radius: 5px;
   font-weight: bold;
-  border: 3px solid rgb(48, 50, 179);
+  border: 3px solid var(--blue);
   font-size: 1.2em;
   padding: 0.7em 2em;
 }
@@ -69,10 +75,28 @@ a {
 }
 
 .btn-login {
-  background-color: rgb(48, 50, 179);
+  background-color: var(--blue);
 }
 
 .btn-register {
-  color: rgb(48, 50, 179);
+  color: var(--blue);
   background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 480px) {
+  .big-text {
+    font-size: 40px;
+  }
+  .btn-group {
+    flex-direction: column;
+    margin: 2em 0;
+  }
+  .btn {
+    width: 100%;
+    margin: 0.5em 0.5em;
+    font-size: 1.2em;
+    padding: 0.5em 1.6em;
+    border: 2px solid var(--blue);
+    font-size: 1em;
+  }
 }
