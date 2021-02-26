@@ -9,7 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <title>Pixaflip - Register</title>
+    <title>Pixaflip - Login</title>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
                 <input type="password" class="form-control" name="pass">
             </div>
             <div class="form-group">
-                <input type="submit" value="Login" class="btn btn-login">
+                <input type="submit" value="Log In" class="btn btn-login">
             </div>
         </form>
     </div>

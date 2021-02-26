@@ -9,13 +9,13 @@
         href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;600&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <title>Pixaflip - Login</title>
+    <title>Pixaflip - Register</title>
 </head>
 
 <body>
 
     <div class="container login">
-        <h1>Login</h1>
+        <h1>Register</h1>
         <form action="process.php" method="POST">
             <div class="form-group">
                 <label for="user" class="form-control">Username</label>
@@ -26,7 +26,7 @@
                 <input type="password" class="form-control" name="pass">
             </div>
             <div class="form-group">
-                <input type="submit" value="Login" class="btn btn-login">
+                <input type="submit" value="Sign Up" class="btn btn-login">
             </div>
         </form>
     </div>
