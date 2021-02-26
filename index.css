@@ -12,6 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--black);
+  background-color: yellow;
 }
 
 .container {
@@ -83,10 +84,6 @@ a {
   text-align: left;
   display: block;
   width: 100%;
-}
-
-input {
-  padding: 0.3em;
 }
 
 .btn-group {
