@@ -1,5 +1,6 @@
 :root {
   --black: #1b1a1a;
+  --less-black: rgb(65, 65, 65);
   --blue: rgb(71, 74, 209);
 }
 
@@ -44,13 +45,14 @@ img {
 
 a {
   display: block;
-  color: #ffffff;
   text-decoration: none;
 }
 
 .hero > p {
   margin-top: 1em;
 }
+
+/* design for login and signup page */
 
 .login {
   max-width: 480px;
@@ -63,6 +65,52 @@ a {
 
 .login h2 {
   margin: 1em 0;
+}
+
+/* design for home page */
+
+header {
+  padding: 2em;
+  background-color: rgb(255, 237, 237);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header > a {
+  font-weight: bold;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+}
+
+.header .logo {
+  font-size: 1.5em;
+  color: var(--blue);
+}
+
+.header > a:not(.logo) {
+  color: var(--less-black);
+}
+
+.header > a:hover:not(.logo) {
+  color: var(--blue);
+}
+
+.profile {
+  margin-left: auto;
+  margin-right: 2em;
+}
+
+main .container {
+  margin: 2em auto;
 }
 
 /* utility classes */
@@ -85,6 +133,11 @@ a {
   width: 100%;
 }
 
+.form-control:not(label) {
+  padding: 1em;
+  border: 2px solid #eee;
+}
+
 .btn-group {
   display: flex;
   justify-content: center;
@@ -93,6 +146,7 @@ a {
 }
 
 .btn {
+  color: #ffffff;
   width: 200px;
   margin: 0 0.5em;
   text-align: center;
@@ -115,7 +169,6 @@ a {
   color: #ffffff;
   width: 100%;
   margin: 0;
-  padding: 0.8em;
   cursor: pointer;
 }
 
